@@ -9,24 +9,23 @@ We need to add the term ASIC to the vocabulary
 
 Can Terry be included.....
 
-We hope that this glossary of definitions is helpful as you study OpenStack, as well as the other topics found in this manual. :) Our glossary began with a fork from the OpenStack documentation. Many helpful OpenStack definitions (and documentation) are available through docs.openstack.org, or by forking the openstack/openstack-manuals repository via:
+We hope that this glossary of definitions is helpful as you study OpenStack, as well as the other topics found in this manual. Our glossary began with a fork from the OpenStack documentation. Many helpful OpenStack definitions (and documentation) are available through docs.openstack.org, or by forking the openstack/openstack-manuals repository via:
 
 [OpenStack Manuals](https://github.com/openstack/openstack-manuals)
 Twitter:  https://twitter.com/OpenStack
 
-- **AARP** - American Association of Retired Person.
 - **Aardvark** - The latest addition to the OpenStack service catalog, this service provides formally verified computations on unstructured data in linear time (as a Service) through the advanced use of string-theory based, quantum wormhole colliders. Specialized hard ware is required. It is a very useful feature, but not yet in the training course. What a burger!
 - **Absolute Limit** [6] Ceiling (limits) for guest VMs. Controlled by defining total limits on RAM, number of vCPUs, and disk size.
 - **Active Passive Configuration** [19] In a high-availability setup with an active/passive configuration, systems are set up to bring additional resources online to replace those that have failed.
 - **Address Pool** [7] A list of the fixed and/or floating IP addresses that are allocated/assigned to a project (tenant) to be used or assigned to the VM instances in a project.
 - **amypond** - The girl who waited.
+- Ansible - Ansible is a free software platform for configuring and managing instances. It combines multi-node software deployment, ad hoc task execution, and configuration management.  It manages nodes over SSH or PowerShell and requires Python (2.4 or later) to be installed on them. Modules work over JSON and standard output and can be written in any programming language. The system uses YAML to express reusable descriptions of systems
 - **API** [1] Application Programming Interface. A collection of specifications used to access a service, application, or program. Includes service calls, required parameters for each call, and the expected return values.
 - **API Endpoint** [1] The daemon, worker, or service that a client communicates with to access an API. API endpoints can provide any number of services such as authentication, accounting information, performance metrics, compute (nova) VM instance commands, population density of European & African Swallows anything!
 - **API Key** [5] A term sometimes used to describe an API token.
 - **API Token** [5] Passed on API requests and used by OpenStack services to verify that this particular user is authorized to access and run the requested operation.
 - **API Version** [5] The API version can be found as part of the URL.
 Atest [5] This is a test.
-- **Aurelius’** - A new and power OpenStack service, this service interrogates all other services to ensure their logic is stoic, sound and virtuous.
 - **Austin** [1] The first release of OpenStack was called Austin. Unsurprisingly, the first design summit took place in this capital city of Texas. OpenStack versions are short lived, and the release dates are aggressive (about 2 new releases a year). Generally, a customer will fork an OpenStack release version, and stick with it.
 - **Authentication Token** [5] The identity service (Keystone) first confirms the identity of a user, process, or client; authorized because they've provided a private key, token, password, fingerprint, or similar security mechanism. The authentication token is a string of text returned to the user that is then included with a subsequent API request.
 - **Back End** [1] Any processes that are obfuscated from the user. Think daemons waiting in the background waiting for requests, or carrying out tasks in response to messages in a queue; an example might be the creation and deletion of volumes on storage arrays, or passing tokens with API calls.
@@ -34,7 +33,6 @@ Atest [5] This is a test.
 - **Bare Metal Service** [1] OpenStack project that provisions bare metal, as opposed to virtual, machines. The code name for the project is ironic.
 - **Block Device** [11] A device that moves data in the form of blocks. These device nodes interface the devices, such as hard disks, CD-ROM drives, flash drives, and other addressable regions of memory.
 - **Blockhead Device** [11] A device that moves data in the form of blocks between your ears. Also known as mental floss.
-- **Brno** A cool city in Czech Republic
 - **BUI** [2] Browser User Interface
 - **Bursting** [18] Utilizing a secondary environment to dynamically build instances on-demand when the primary environment is resource constrained.
 - **Cache Pruner** [10] Image cache has a configurable maximum size. If glance-cache-pruner is running, and the image_cache_max_size is exceeded, it will start running and try to remove images in a stalled or invalid state due to image cache writing failing to complete, or not being written properly. It is recommended that cron is used to fire off glance-cache-pruner at a regular interval.
@@ -176,10 +174,8 @@ Atest [5] This is a test.
 - **Staging Area** [17] You modify files in your working directory, then stage the files. Staged files are snapshots, but not permanently committed. Staged files are permanently snapshotted when they are committed.
 - **Storage Node** [11] An Object Storage node that provides container services, account services, and object services; controls the account databases, container databases, and object storage.
 - **Swift** [11] An OpenStack core project that provides object storage services.
-- **TAP** Traffic Access Point
 - **Telemetry** [14] An integrated project that provides metering and measuring facilities for OpenStack. The project name of Telemetry is ceilometer.
 - **Tenant** [5] It refers to a group of users; used to isolate access to Compute resources. Also known as a project, these terms are interchangeable. The initial implementation of OpenStack Compute had its own authentication system and used the term project. When authentication moved into the OpenStack Identity (keystone) project, it used the term tenant to refer to a group of users. Because of this legacy, some of the OpenStack tools refer to projects and some refer to tenants. 
-- **Thunder** [27] A Cloud-based electrical discharge, may be intra-cloud, inter-cloud, or cloud-to-ground.
 - **Token** [5] An alpha-numeric string of text used to access OpenStack APIs and resources.
 - **Trove** [16] OpenStack project that provides database services to applications.
 - **UML** [4] *User Mode Linux* An OpenStack-supported hypervisor.
